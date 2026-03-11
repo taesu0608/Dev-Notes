@@ -9,3 +9,15 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# personal notes
+content/private/
+
+# templates
+content/templates/
+
+# daily notes
+content/1. Daily/
+content/2. Weekly/
+content/3. Monthly/
+content/4. Yearly/
