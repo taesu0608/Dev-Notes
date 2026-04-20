@@ -71,7 +71,6 @@
 | `peek()`     | `E`       | 큐의 **앞 요소 조회 (제거 X)** (비어있으면 `null`)     | 예외 발생 안 함                       |
 | `element()`  | `E`       | 큐의 **앞 요소 조회 (제거 X)** (비어있으면 예외 발생)      | `NoSuchElementException`        |
 | `size()`     | `int`     | 큐에 현재 저장된 요소 수 반환                        | 예외 발생 안 함                       |
-
 ### Queue 메서드 사용 예시
 ```java
 public class Queue {

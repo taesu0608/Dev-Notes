@@ -60,11 +60,13 @@
 
 ### Stack 메서드 사용 예시 (권장: Deque / ArrayDeque)
 
-java
+``` java
 
-복사편집
-
-`import java.util.ArrayDeque; import java.util.Deque;  public class StackExampleWithDeque {     public static void main(String[] args) {         Deque<String> stack = new ArrayDeque<>();          // 1. push() - 요소 추가         stack.push("A");         stack.push("B");         stack.push("C");         System.out.println("stack: " + stack); // [C, B, A] (top이 앞쪽)          // 2. peek() - top 요소 확인 (제거 X)         System.out.println("peek(): " + stack.peek()); // C          // 3. pop() - top 요소 꺼내기 (제거 O)         System.out.println("pop(): " + stack.pop()); // C         System.out.println("stack (after pop): " + stack); // [B, A]          // 4. size(), isEmpty()         System.out.println("size(): " + stack.size());     // 2         System.out.println("isEmpty(): " + stack.isEmpty()); // false          // 5. clear()         stack.clear();         System.out.println("stack (after clear): " + stack); // []          // 6. pop() vs peek() on empty         System.out.println("peek() on empty: " + stack.peek()); // null         try {             stack.pop(); // 예외 발생         } catch (Exception e) {             System.out.println("pop() on empty: 예외 발생 - " + e);         }     } }`
+`import java.util.ArrayDeque; import java.util.Deque;  public class StackExampleWithDeque {     public static void main(String[] args) {         Deque<String> stack = new ArrayDeque<>();          // 1. push() - 요소 추가         
+stack.push("A");         
+stack.push("B");         
+stack.push("C");         
+System.out.println("stack: " + stack); // [C, B, A] (top이 앞쪽)          // 2. peek() - top 요소 확인 (제거 X)         System.out.println("peek(): " + stack.peek()); // C          // 3. pop() - top 요소 꺼내기 (제거 O)         System.out.println("pop(): " + stack.pop()); // C         System.out.println("stack (after pop): " + stack); // [B, A]          // 4. size(), isEmpty()         System.out.println("size(): " + stack.size());     // 2         System.out.println("isEmpty(): " + stack.isEmpty()); // false          // 5. clear()         stack.clear();         System.out.println("stack (after clear): " + stack); // []          // 6. pop() vs peek() on empty         System.out.println("peek() on empty: " + stack.peek()); // null         try {             stack.pop(); // 예외 발생         } catch (Exception e) {             System.out.println("pop() on empty: 예외 발생 - " + e);         }     } }`
 
 ### (레거시) `java.util.Stack` 사용 예시
 

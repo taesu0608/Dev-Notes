@@ -40,7 +40,7 @@
 |`'\f'`|폼 피드 (페이지 나눔)|
 - `split()`과 다르게 [[정규표현식 (Regular Expression, Regex)]]을 지원하지 않음  
 - 구분자를 연속적으로 사용하는 경우, 빈 문자열은 토큰으로 처리되지 않음  
-- [[Enumeration]] 스타일로 동작 ([[Iterator]] 아님)
+- [[Enumeration]] 스타일로 동작 ([[Iterator Pattern]] 아님)
 
 ## 2.3. Q&A
 

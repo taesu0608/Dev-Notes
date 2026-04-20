@@ -37,6 +37,5 @@
 
 ## 1.2. Topic
 - https://www.researchgate.net/figure/Kafkas-architecture-illustrated-with-3-partitions-3-replicas-and-5-brokers_fig2_326564203
-![[Pasted image 20260301152948.png]]
-
+![[Pasted image 20260310213235.png]]
 ### 1.3.1. topic

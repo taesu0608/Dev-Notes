@@ -1,7 +1,7 @@
 # 1. Stream API
 ## 1.1. in Oracle
 A sequence of elements supporting sequential and parallel aggregate operations.
-- 요소들의 시퀀스로서, 순차적 및 병렬적인 집계 연산을 지원한다.  
+- **정의**: 요소들의 시퀀스로서, 순차적 및 병렬적인 집계 연산을 지원 
 
 ## 1.2. 특징
 - Collection 프레임워크를 기반으로 사용됨
